@@ -11,13 +11,15 @@ const NavBar = () => {
   };
 
   return (
-    <div className="container flex mx-auto">
-      <Input
-        value={input}
-        onChange={handleInput}
-        placeholder="Search destinations"
-      />
-      <Button />
+    <div className="bg-white flex px-4 py-3 w-full fixed top-0 left-0">
+      <div className="flex gap-2 w-full max-w-5xl mx-auto">
+        <Input
+          value={input}
+          onChange={handleInput}
+          placeholder="Search destinations"
+        />
+        <Button text="Search" />
+      </div>
     </div>
   );
 };
