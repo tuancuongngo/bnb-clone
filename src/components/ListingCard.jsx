@@ -6,7 +6,7 @@ const ListingCard = ({ title, image, location, price, rating, numGuests }) => {
 
   return (
     <div
-      className={`group max-w-sm rounded-md bg-white text-gray-950 p-3 cursor-pointer hover:bg-red-500 hover:ring-red-500 duration-300 ${
+      className={`group max-w-sm rounded-md border border-black bg-white text-gray-950 p-3 cursor-pointer hover:bg-red-500 hover:border-red-500 duration-300 ${
         isHovered ? "transform scale-105" : ""
       }`}
       onMouseEnter={() => setIsHovered(true)}

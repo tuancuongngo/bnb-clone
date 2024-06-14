@@ -11,7 +11,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="bg-white flex px-4 py-3 w-full fixed top-0 left-0">
+    <div className="bg-white flex px-4 py-3 w-full fixed top-0 left-0 z-50">
       <div className="flex gap-2 w-full max-w-5xl mx-auto">
         <Input
           value={input}
